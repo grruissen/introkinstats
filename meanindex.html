@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Statistics Question</title>
+    <script src="generateQuestion.js"></script>
+</head>
+<body onload="generateQuestion()">
+    <h1>Statistics Practice Question</h1>
+    <p id="question"></p>
+    <p id="answer" style="display:none;"></p>
+    <button onclick="generateQuestion()">Generate New Question</button>
+    <button onclick="document.getElementById('answer').style.display='block'">Show Answer</button>
+</body>
+</html>
